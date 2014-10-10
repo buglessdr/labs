@@ -1,0 +1,7 @@
+kernel 2.6.11-1.1369_FC4
+mysql  Ver 14.7 Distrib 4.1.11
+
+lrwxrwxrwx   1 root root    28 May 20  2007 00-logwatch -> ../log.d/scripts/logwatch.pl
+
+lrwxrwxrwx  1 root root 28 May 20  2007 /etc/cron.daily/00-logwatch -> ../log.d/scripts/logwatch.pl
+#!/usr/bin/perl -w
