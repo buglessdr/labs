@@ -1,1 +1,1 @@
- medusa -h <host> -C <combo file host:user:pwd) -M <module ftp/rdp etc>
+ medusa -h <host> -C <combo file host:user:pwd) -M <module ftp/rdp etc> -H <hosts list 1 per line>
