@@ -1,0 +1,4 @@
+run post/windows/gather/hashdump
+
+
+use auxiliary/analyze/jtr_crack_fast
