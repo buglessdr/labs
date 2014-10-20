@@ -13,6 +13,15 @@ nmap-script smb-enum-users -iL
 # Grepable, open ports
 nmap -p 1433 --open -oG - -iL /home/dan/PWK/scripts/recon_scan/allhosts.txt awk '/report/ && /open/'
 
+# Show only IP's for specific port (in this case 3306)
+nmap -p 3306 --open -oG - -iL <input list> | awk '/3306\/open/ {print $2}'
+
+Output:
+IP1
+IP2
+IP3
+
+
 # SCript reference
 
 
