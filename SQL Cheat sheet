@@ -1,0 +1,48 @@
+MS SQL Commands:
+
+
+# show databases
+EXEC sp_databases
+
+
+#Show tables in database
+USE  <DBNAME>;SELECT * FROM information_schema.tables;
+
+# Show columns in database
+USE  <DBNAME>;SELECT * FROM information_schema.columns;
+
+
+# show contents of tables
+USE <DBNAME>;SELECT * FROM <TABLENAME>;
+
+
+SELECT * FROM syscolumns;WHERE id=OBJECT_ID('YOUR_TABLE')
+
+SELECT * FROM bankdb.INFORMATION_SCHEMA.COLUMNS;WHERE TABLE_NAME = N'tblCustomers';
+
+SELECT * FROM sys.columns WHERE object_id = OBJECT_ID('dbo.tblCustomers') 
+
+
+
+USE ValidUsers;select * from INFORMATION_SCHEMA.COLUMNS; where TABLE_NAME='Admins'
+
+
+# Select columns
+USE  <DBNAME>;SELECT * FROM information_schema.columns;
+
+
+
+# Select specific columns from table
+ USE <DBNAME>;SELECT col1,col2 FROM <TABLENAME>;
+
+
+
+bankdb         dbo           tblCustomers    cust_name 
+
+# Select columns
+set sql USE  bankdb;SELECT id,balance FROM T_accounts;
+
+set sql USE  bankdb;SELECT cust_id,cust_name,cust_password FROM tblCustomers;
+
+cust_password,cust_account 
+
