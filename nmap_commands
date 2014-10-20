@@ -6,3 +6,28 @@ Grep OUtput to show Open
 
 Show scripts
 ls -l /usr/share/nmap/scripts/*
+
+
+Run scripts against list of IPs
+
+nmap-script smb-enum-users -iL 
+
+
+
+# SCript reference
+
+
+
+
+
+# references
+
+http://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
+http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
+
+
+# best reference
+
+http://securitysynapse.blogspot.com/2013/08/refining-your-nmap-scan-strategy.html
+
+http://pentestlab.wordpress.com/2012/03/08/nmap-scripting-engine-basic-usage-2/
