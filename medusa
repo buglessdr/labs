@@ -1,1 +1,3 @@
  medusa -h <host> -C <combo file host:user:pwd) -M <module ftp/rdp etc> -H <hosts list 1 per line>
+ 
+ http://manpages.ubuntu.com/manpages/precise/man1/medusa.1.html
