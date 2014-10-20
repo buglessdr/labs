@@ -1,0 +1,2 @@
+# hosts list from input file
+set rhosts file:/home/dan/PWK/scripts/recon_scan/ftp.txt 
