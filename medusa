@@ -1,0 +1,1 @@
+ medusa -h <host> -C <combo file host:user:pwd) -M <module ftp/rdp etc>
