@@ -24,8 +24,8 @@ IP3
 
 # SCript reference
 
-
-
+# all scripts of type and by name
+nmap --script "(vuln) and http-*"
 
 
 # references
