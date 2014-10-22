@@ -1,2 +1,6 @@
 # hosts list from input file
 set rhosts file:/home/dan/PWK/scripts/recon_scan/ftp.txt 
+
+# cheat sheet
+
+https://scadahacker.com/library/Documents/Cheat_Sheets/Hacking%20-%20Meterpreter%20Cheat%20%20Sheet.pdf
