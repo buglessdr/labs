@@ -1,0 +1,26 @@
+tarting Nmap 6.47 ( http://nmap.org ) at 2014-10-21 23:55 PDT
+Nmap scan report for 192.168.17.221
+Host is up (0.10s latency).
+Not shown: 995 filtered ports
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.0.6001
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.0.6001 (17714650)
+135/tcp   open  msrpc         Microsoft Windows RPC
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+5357/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 503)
+|_http-title: Service Unavailable
+49160/tcp open  msrpc         Microsoft Windows RPC
+MAC Address: 00:50:56:AF:7E:63 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone
+Running (JUST GUESSING): Microsoft Windows 2008|7|Vista|Phone (90%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:microsoft:windows_server_2008 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Microsoft Windows Server 2008 (90%), Microsoft Windows Server 2008 R2 or Windows 8 (90%), Microsoft Windows 7 SP1 (90%), Microsoft Windows Server 2008 R2 (89%), Microsoft Windows Server 2008 SP1 or Windows 8 (89%), Windows Server 2008 R2 (89%), Microsoft Windows 7 (89%), Microsoft Windows 7 Professional or Windows 8 (89%), Microsoft Windows 7 SP1 or Windows Server 2008 SP1 - SP2 (89%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: SLAVE, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:af:7e:63 (VMware)
