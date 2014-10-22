@@ -15,3 +15,7 @@ https://github.com/Maleus/Enumerator
 
 
 https://github.com/lanjelot/patator/blob/master/patator.py
+
+https://github.com/shadyproject/pwb-scripts
+
+http://57005-security.blogspot.com/2011/09/commands-i-use-alot.html
