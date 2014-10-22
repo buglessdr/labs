@@ -39,3 +39,7 @@ http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
 http://securitysynapse.blogspot.com/2013/08/refining-your-nmap-scan-strategy.html
 
 http://pentestlab.wordpress.com/2012/03/08/nmap-scripting-engine-basic-usage-2/
+
+# UDP SNMP
+
+nmap -sU 192.168.1.1/24 -p161, 162
